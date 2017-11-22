@@ -32,4 +32,8 @@ Message& Message::obtain() {
 
 }
 
+Message& Message::obtain(Message& message) {
+
+}
+
 };

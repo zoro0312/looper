@@ -47,6 +47,7 @@ public:
     Message& next;
 
     static Message& obtain();
+    static Message& obtain(Message& message);
     
     void sendToTarget();
     bool isAsynchronous();
